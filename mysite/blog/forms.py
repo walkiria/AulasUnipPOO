@@ -9,7 +9,7 @@ from ibm_watson.natural_language_understanding_v1 import Features, KeywordsOptio
 
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-authenticator = IAMAuthenticator('Bh11npE8h4phWth3lyBAh2Z3xsAj2GbHZHJdI21Sbap3')
+authenticator = IAMAuthenticator('')
 service = NaturalLanguageUnderstandingV1(
     version='2019-07-12',
     authenticator=authenticator
